@@ -98,7 +98,23 @@
     <div id="post0">
         <p>十一月 01, 2020</p>
         <h2><a href="/2020/11/01/LaTeX%20%E5%90%84%E7%A7%8D%E5%91%BD%E4%BB%A4%EF%BC%8C%E7%AC%A6%E5%8F%B7/" title="LaTeX 各种命令，符号" class="posttitle">LaTeX 各种命令，符号</a></h2>
-        <p class="summary"></p>
+        <p class="summary"> LaTeX 各种命令，符号
+ 函数、符号及特殊字符
+ 声调
+
+
+
+语法
+效果
+语法
+效果
+语法
+效果
+
+
+
+
+\...</p>
     </div>
     
 </div>
@@ -219,6 +235,21 @@ https://qzapi.github.tlingc.c...</p>
 </div>
 <div id="preview"></div>
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </body>
 
 <script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
